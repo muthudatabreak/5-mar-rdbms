@@ -1,0 +1,3 @@
+create table students(regno int(8) primary key, name varchar(10), dept varchar(6), VB_Marks int(3), RDBMS_Marks int(3), CS_Marks int(3));
+desc students;
+select * from students;
