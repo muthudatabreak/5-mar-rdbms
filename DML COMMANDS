@@ -1,0 +1,14 @@
+create table students(regno int(8) primary key, name varchar(10), dept varchar(6), VB_Marks int(3), RDBMS_Marks int(3), CS_Marks int(3));
+desc students ;
+insert into students values('10501','ASWIN','BCA','89','74','65');
+insert into students values('10502','MANO','BSC_IT','99','75','45');
+insert into students values('10503','KARTHICK','BSC_CS','89','95','99');
+insert into students values('10504','THANGAM','BCA','85','75','63');
+insert into students values('10505','KAVITHA','BSC_CT','98','87','80');
+insert into students values('10506','PADMA','BSC_IT','85','74','55') ;
+insert into students values('10507','ARASI','BCA','88','76','61');
+insert into students values('10508','GOWTHAM','BCS_CT','54','41','30');
+insert into students values('10509','ARUN','BCA','68','56','45');
+insert into students values('10510','PRAJITH','BCA','23','35','35'); 
+select * from students;
+select name from students where dept ='BCA';
